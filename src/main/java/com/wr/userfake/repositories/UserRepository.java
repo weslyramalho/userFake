@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.Async;
 
 import antlr.collections.List;
 
-@Async
+@Async("customThreadPool")
 public interface UserRepository extends JpaRepository<User, Long>{
 	
 	CompletableFuture<Optional<User>> findOneById(final Long id);

@@ -5,6 +5,8 @@ import java.util.concurrent.CompletableFuture;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
+import com.wr.userfake.services.UserService;
+
 @Service
 public class AsyncService {
 	

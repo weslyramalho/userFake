@@ -4,7 +4,7 @@ import java.util.concurrent.CompletableFuture;
 
 import javax.security.auth.x500.X500Principal;
 
-import org.apache.catalina.User;
+
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.wr.userfake.model.User;
 import com.wr.userfake.services.UserService;
 
 import antlr.collections.List;
